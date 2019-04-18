@@ -1,0 +1,26 @@
+h2{
+    color: red !important;
+    text-shadow: 0px 2px 1px black;
+    text-align: center;
+    font-family: 'Black Ops One', cursive;
+
+}
+h2:hover{
+    color:black;
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+    margin-right: 80px;
+    color:red;
+}
+
+a {
+    color:black;
+}
+a:hover{
+    color:red;
+    text-decoration: none;
+}
