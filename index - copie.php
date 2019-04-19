@@ -9,14 +9,21 @@
  <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-   <div class="pageWrap">
-    <div class="contentWrap">
    
-    
-
-  <div class="menu">
-    <?php include "menu.php" ?>
-  </div>
+    <h2>GWADA BAT</h2>
+    <!-- Image and text -->
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img src="images/gps-home-.png" width="30" height="30" class="d-inline-block align-top" alt="">
+    Home
+  </a>
+  <ul class="g">
+      <li><a href="#">Articles</a></li>  
+      <li><a href="#">Commandes</a></li>  
+      <li><a href="#">Clients</a></li>
+  </ul>
+</nav>
+<br>
 
 <form>
    NOM <input type="text" for="name">
@@ -37,6 +44,12 @@ Unité <select name="unité" size="1">
     <option>L</option>
 </select>
 </form>
-<?php include "footer.php" ?>
 
 
+
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
